@@ -19,7 +19,7 @@ interface ModalAddFoodProps {
   isOpen: boolean;
   setIsOpen: () => void;
   handleAddFood: (data: FoodItemsProps) => void;
-}
+}    
 
 export function ModalAddFood({isOpen, setIsOpen, handleAddFood}: ModalAddFoodProps) {
 
